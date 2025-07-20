@@ -1,0 +1,10 @@
+:root {
+  /* Cores conforme especificado no projeto */
+  --primary-color: #0A2A66; /* Azul escuro UFSM */
+  --accent-color: #4A90E2; /* Azul highlight */
+  --gamer-accent: #00ff88; /* Verde neon gamer */
+  
+  /* Tipografia */
+  --font-inter: 'Inter', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+}
