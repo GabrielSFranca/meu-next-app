@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+/*import { NextResponse } from 'next/server';
 import { connectToDatabase } from '@/lib/database';
 import News from '@/models/News';
 
@@ -30,4 +30,4 @@ export async function POST(request: Request) {
       { status: 500 }
     );
   }
-}
+}*/

@@ -3,8 +3,13 @@
   --primary-color: #0A2A66; /* Azul escuro UFSM */
   --accent-color: #4A90E2; /* Azul highlight */
   --gamer-accent: #00ff88; /* Verde neon gamer */
+
+
+  --max-width: 1200px;
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
   
-  /* Tipografia */
+  /* Tipografia
   --font-inter: 'Inter', sans-serif;
-  --font-roboto: 'Roboto', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;*/
 }

@@ -1,11 +1,12 @@
-import type { Metadata } from 'next';
-import { Inter, Roboto } from 'next/font/google';
+import { Metadata } from "next";
+import { Roboto } from 'next/font/google';
 import './styles/globals.css';
+import { inter, geistSans, geistMono} from "./styles/fonts";
 import { Header } from '@/components/header';
 
-const inter = Inter({
+/*const inter = Inter({
    subsets: ['latin'] 
-});
+});*/
 const roboto = Roboto({ 
   weight: ['400', '500'],
   subsets: ['latin'],
@@ -13,7 +14,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: 'Departamento de Informática - UFSM',
+  title: "Informática | ufsm",
   description: 'Portal oficial do Departamento de Informática da UFSM',
 };
 
@@ -24,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={`${inter.className} ${roboto.variable}`}>
+      <body className={`${inter.variable} ${roboto.variable} ${geistSans.variable} ${geistMono.variable}`}>
         <Header />
         <main>{children}</main>
       </body>
