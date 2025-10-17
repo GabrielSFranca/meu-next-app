@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./page.module.css";
 
 function Tecla({value}: {value:string}){
+    /** codigo JavaScript do componente */
     return (
         <td>
             <button className={styles.tecla}>
@@ -38,7 +39,7 @@ function CalcBlock(){
                     <Tecla value="x"/>                   
                 </tr>
                 <tr>
-                    <Tecla value="8"/>
+                    <Tecla value="0"/>
                     <Tecla value="C"/>
                     <Tecla value="/"/>
                     <Tecla value="="/>                   
@@ -58,6 +59,8 @@ export default function Calculator(){
 }
 
 
+// pagina = export default function..
+// componente = export function..
 
 /**
  * 
